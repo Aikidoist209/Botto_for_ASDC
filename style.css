@@ -1,0 +1,110 @@
+html {
+    background: linear-gradient(to bottom, rgb(243, 219, 7), rgb(112, 78, 4));
+    appearance: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header.full-width-header {
+  width: 98%;
+  overflow: hidden;
+
+}
+
+.header-img {
+    margin: 0 auto; /* This centers the block image */
+    width: 75%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(15, 11, 2); 
+}
+h2 {
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(10, 8, 1); 
+}
+
+p {
+  text-align: center;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px goldenrod;  
+}
+
+nav ul {
+    text-align: center;
+    margin-bottom: 20px;
+    border: black 2px solid;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    border: black 1px solid;
+    background-color:rgb(184, 23, 176);
+    
+}
+ nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    color:rgb(172, 181, 185);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+canvas {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    padding: 10px;
+    margin: 40px auto;
+    background-color: black;
+    border: 8px solid rgb(184, 23, 176);
+}
+
+
+@media screen and (max-width: 700px) {
+        canvas {
+            width: 100%;
+            margin: 20px auto;
+}
+    }
+
+@media screen and (max-width: 400px) {
+    canvas {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    canvas {
+        width: 100%;
+        margin: 5px auto;
+    }
+}
