@@ -57,7 +57,31 @@ header.full-width-header {
     margin: 0 auto;
 }
 
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #4B3621; /* Matches your campaign brown */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 12px;
+    border: 2px solid #4B3621;
+    border-radius: 50px; /* Makes it a pill-shaped button */
+    width: fit-content;
+}
 
+.social-link i {
+    font-size: 1.5rem; /* Makes the icon pop */
+}
+
+/* Change color when tapped on a phone */
+.social-link:active {
+    background-color: #4B3621;
+    color: #fff;
+}
 
 
 h1 {
