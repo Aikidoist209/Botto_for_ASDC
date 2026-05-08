@@ -210,8 +210,8 @@ h2 {
 
 h3{
     text-align: center;
-    color: rgb(65, 40, 6);
-    font-size: 78px;
+    color: #ce0707;
+    font-size: 38px;
 }
 @media screen and (max-width: 480px) {
     h3 {
@@ -255,9 +255,42 @@ p {
      
 }
 
+a {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #ce0707; /* Matches your campaign brown */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 20px auto;
+    display: block;
+    padding: 14px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px; /* Makes it a pill-shaped button */
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
 
+a i {
+    font-size: 1.5rem;
+}
 
+a:active {
+    background-color: rgba(75, 54, 33, 0.9);
+    color: #fff;
+}
+ a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1); /* Grows the button by 10% */
 
+ }
 
 
 
